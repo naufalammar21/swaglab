@@ -17,3 +17,16 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
+
+WebUI.setText(findTestObject('Object Repository/Page_Swag Labs/username_field'), 'standard_user')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Page_Swag Labs/password_field'), 
+    'qcu24s4901FyWDTwXGr6XA==')
+
+WebUI.click(findTestObject('Object Repository/Page_Swag Labs/login_button'))
+
+WebUI.closeBrowser()
+
