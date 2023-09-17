@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="login and checkout" time="42.509" tests="2" failures="0" errors="0">
+   <testsuite name="login and checkout" tests="2" failures="0" errors="0" time="42.509" skipped="0" timestamp="2023-09-17 19:58:55" hostname="Naufal - LAPTOP-2493QND1" id="Test Suites/login and checkout">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Naufal\\git\\swaglab\\Reports\\20230917_195848\\login and checkout\\20230917_195848"/>
+         <property name="logFiles" value="C:\\Users\\Naufal\\git\\swaglab\\Reports\\20230917_195848\\login and checkout\\20230917_195848\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Naufal - LAPTOP-2493QND1"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.6.8.208"/>
+         <property name="browser" value="Chrome 117.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.4"/>
+         <property name="sessionId" value="e3e36e682abe51aa8e3c44b816e28c30"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/login without close browser" time="27.956" classname="Test Cases/login without close browser" status="PASSED">
+         <system-out><![CDATA[2023-09-17 19:58:55 - [TEST_CASE][PASSED] - Test Cases/login without close browser: Test Cases/login without close browser
+
+2023-09-17 19:58:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2023-09-17 19:58:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2023-09-17 19:58:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2023-09-17 19:59:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2023-09-17 19:59:01 - [TEST_STEP][PASSED] - navigateToUrl("https://www.saucedemo.com/v1/"): Navigate to 'https://www.saucedemo.com/v1/' successfully
+
+2023-09-17 19:59:02 - [MESSAGE][PASSED] - Navigate to 'https://www.saucedemo.com/v1/' successfully
+
+2023-09-17 19:59:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/login_Swag Labs/username_field"), "standard_user"): Text 'standard_user' is set on object 'Object Repository/login_Swag Labs/username_field'
+
+2023-09-17 19:59:04 - [MESSAGE][PASSED] - Text 'standard_user' is set on object 'Object Repository/login_Swag Labs/username_field'
+
+2023-09-17 19:59:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/login_Swag Labs/password_field"), "qcu24s4901FyWDTwXGr6XA=="): Text ****** has been set on object 'Object Repository/login_Swag Labs/password_field'
+
+2023-09-17 19:59:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/login_Swag Labs/password_field'
+
+2023-09-17 19:59:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/login_Swag Labs/login_button")): Object: 'Object Repository/login_Swag Labs/login_button' is clicked on
+
+2023-09-17 19:59:23 - [MESSAGE][PASSED] - Object: 'Object Repository/login_Swag Labs/login_button' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/order product in swaglab" time="13.637" classname="Test Cases/order product in swaglab" status="PASSED">
+         <system-out><![CDATA[2023-09-17 19:59:23 - [TEST_CASE][PASSED] - Test Cases/order product in swaglab: Test Cases/order product in swaglab
+
+2023-09-17 19:59:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout/button_ADD TO CART")): Object: 'Object Repository/checkout/button_ADD TO CART' is clicked on
+
+2023-09-17 19:59:25 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout/button_ADD TO CART' is clicked on
+
+2023-09-17 19:59:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f")): Object: 'Object Repository/checkout/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f' is clicked on
+
+2023-09-17 19:59:27 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f' is clicked on
+
+2023-09-17 19:59:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout/a_CHECKOUT")): Object: 'Object Repository/checkout/a_CHECKOUT' is clicked on
+
+2023-09-17 19:59:28 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout/a_CHECKOUT' is clicked on
+
+2023-09-17 19:59:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout/div_Checkout Your Information_checkout_info")): Object: 'Object Repository/checkout/div_Checkout Your Information_checkout_info' is clicked on
+
+2023-09-17 19:59:29 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout/div_Checkout Your Information_checkout_info' is clicked on
+
+2023-09-17 19:59:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout/input_Checkout Your Information_first-name"), "Naufal"): Text 'Naufal' is set on object 'Object Repository/checkout/input_Checkout Your Information_first-name'
+
+2023-09-17 19:59:30 - [MESSAGE][PASSED] - Text 'Naufal' is set on object 'Object Repository/checkout/input_Checkout Your Information_first-name'
+
+2023-09-17 19:59:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout/input_Checkout Your Information_last-name"), "Ammar"): Text 'Ammar' is set on object 'Object Repository/checkout/input_Checkout Your Information_last-name'
+
+2023-09-17 19:59:31 - [MESSAGE][PASSED] - Text 'Ammar' is set on object 'Object Repository/checkout/input_Checkout Your Information_last-name'
+
+2023-09-17 19:59:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/checkout/input_Checkout Your Information_postal-code"), "146314"): Text '146314' is set on object 'Object Repository/checkout/input_Checkout Your Information_postal-code'
+
+2023-09-17 19:59:33 - [MESSAGE][PASSED] - Text '146314' is set on object 'Object Repository/checkout/input_Checkout Your Information_postal-code'
+
+2023-09-17 19:59:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout/input_CANCEL_btn_primary cart_button")): Object: 'Object Repository/checkout/input_CANCEL_btn_primary cart_button' is clicked on
+
+2023-09-17 19:59:34 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout/input_CANCEL_btn_primary cart_button' is clicked on
+
+2023-09-17 19:59:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/checkout/a_FINISH")): Object: 'Object Repository/checkout/a_FINISH' is clicked on
+
+2023-09-17 19:59:35 - [MESSAGE][PASSED] - Object: 'Object Repository/checkout/a_FINISH' is clicked on
+
+2023-09-17 19:59:35 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/checkout/h2_THANK YOU FOR YOUR ORDER")): Object 'Object Repository/checkout/h2_THANK YOU FOR YOUR ORDER' is visible
+
+2023-09-17 19:59:36 - [MESSAGE][PASSED] - Object 'Object Repository/checkout/h2_THANK YOU FOR YOUR ORDER' is visible
+
+2023-09-17 19:59:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2023-09-17 19:59:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2023-09-17 19:58:55 - [TEST_SUITE][PASSED] - login and checkout: Test Cases/order product in swaglab]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

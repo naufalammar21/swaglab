@@ -23,10 +23,7 @@ WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
 
 WebUI.setText(findTestObject('Object Repository/login_Swag Labs/username_field'), 'standard_user')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/login_Swag Labs/password_field'), 
-    'qcu24s4901FyWDTwXGr6XA==')
+WebUI.setEncryptedText(findTestObject('Object Repository/login_Swag Labs/password_field'), 'qcu24s4901FyWDTwXGr6XA==')
 
 WebUI.click(findTestObject('Object Repository/login_Swag Labs/login_button'))
-
-WebUI.closeBrowser()
 

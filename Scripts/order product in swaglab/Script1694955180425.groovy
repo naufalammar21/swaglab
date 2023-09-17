@@ -17,16 +17,25 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/checkout/button_ADD TO CART'))
 
-WebUI.navigateToUrl('https://www.saucedemo.com/v1/')
+WebUI.click(findTestObject('Object Repository/checkout/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f'))
 
-WebUI.setText(findTestObject('Object Repository/login_Swag Labs/username_field'), 'standard_user')
+WebUI.click(findTestObject('Object Repository/checkout/a_CHECKOUT'))
 
-WebUI.setEncryptedText(findTestObject('Object Repository/login_Swag Labs/password_field'), 
-    'qcu24s4901FyWDTwXGr6XA==')
+WebUI.click(findTestObject('Object Repository/checkout/div_Checkout Your Information_checkout_info'))
 
-WebUI.click(findTestObject('Object Repository/login_Swag Labs/login_button'))
+WebUI.setText(findTestObject('Object Repository/checkout/input_Checkout Your Information_first-name'), 'Naufal')
+
+WebUI.setText(findTestObject('Object Repository/checkout/input_Checkout Your Information_last-name'), 'Ammar')
+
+WebUI.setText(findTestObject('Object Repository/checkout/input_Checkout Your Information_postal-code'), '146314')
+
+WebUI.click(findTestObject('Object Repository/checkout/input_CANCEL_btn_primary cart_button'))
+
+WebUI.click(findTestObject('Object Repository/checkout/a_FINISH'))
+
+WebUI.verifyElementVisible(findTestObject('Object Repository/checkout/h2_THANK YOU FOR YOUR ORDER'))
 
 WebUI.closeBrowser()
 

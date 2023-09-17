@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login without close browser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bd6ab2c3-2da1-4750-bcce-681b68def728</testCaseGuid>
+</TestCaseEntity>

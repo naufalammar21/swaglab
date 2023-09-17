@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+login and checkout,Chrome 117.0.0.0,,,2023-09-17 19:58:55,2023-09-17 19:59:37,42.509s,PASSED
+,,,,,,,
+Test Cases/login without close browser,Chrome 117.0.0.0,,,2023-09-17 19:58:55,2023-09-17 19:59:23,27.956s,PASSED
+"openBrowser("""")",Chrome 117.0.0.0,,,2023-09-17 19:58:56,2023-09-17 19:59:01,4.314s,PASSED
+"navigateToUrl(""https://www.saucedemo.com/v1/"")",Chrome 117.0.0.0,,,2023-09-17 19:59:01,2023-09-17 19:59:02,1.178s,PASSED
+"setText(findTestObject(""Object Repository/login_Swag Labs/username_field""), ""standard_user"")",Chrome 117.0.0.0,,,2023-09-17 19:59:02,2023-09-17 19:59:04,1.730s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/login_Swag Labs/password_field""), ""qcu24s4901FyWDTwXGr6XA=="")",Chrome 117.0.0.0,,,2023-09-17 19:59:04,2023-09-17 19:59:05,1.106s,PASSED
+"click(findTestObject(""Object Repository/login_Swag Labs/login_button""))",Chrome 117.0.0.0,,,2023-09-17 19:59:05,2023-09-17 19:59:23,18.723s,PASSED
+,,,,,,,
+Test Cases/order product in swaglab,Chrome 117.0.0.0,,,2023-09-17 19:59:23,2023-09-17 19:59:37,13.637s,PASSED
+"click(findTestObject(""Object Repository/checkout/button_ADD TO CART""))",Chrome 117.0.0.0,,,2023-09-17 19:59:25,2023-09-17 19:59:25,0.719s,PASSED
+"click(findTestObject(""Object Repository/checkout/svg_Open Menu_svg-inline--fa fa-shopping-ca_f4ec0f""))",Chrome 117.0.0.0,,,2023-09-17 19:59:25,2023-09-17 19:59:27,1.294s,PASSED
+"click(findTestObject(""Object Repository/checkout/a_CHECKOUT""))",Chrome 117.0.0.0,,,2023-09-17 19:59:27,2023-09-17 19:59:28,1.261s,PASSED
+"click(findTestObject(""Object Repository/checkout/div_Checkout Your Information_checkout_info""))",Chrome 117.0.0.0,,,2023-09-17 19:59:28,2023-09-17 19:59:29,0.859s,PASSED
+"setText(findTestObject(""Object Repository/checkout/input_Checkout Your Information_first-name""), ""Naufal"")",Chrome 117.0.0.0,,,2023-09-17 19:59:29,2023-09-17 19:59:30,1.305s,PASSED
+"setText(findTestObject(""Object Repository/checkout/input_Checkout Your Information_last-name""), ""Ammar"")",Chrome 117.0.0.0,,,2023-09-17 19:59:30,2023-09-17 19:59:31,1.257s,PASSED
+"setText(findTestObject(""Object Repository/checkout/input_Checkout Your Information_postal-code""), ""146314"")",Chrome 117.0.0.0,,,2023-09-17 19:59:31,2023-09-17 19:59:33,1.309s,PASSED
+"click(findTestObject(""Object Repository/checkout/input_CANCEL_btn_primary cart_button""))",Chrome 117.0.0.0,,,2023-09-17 19:59:33,2023-09-17 19:59:34,1.304s,PASSED
+"click(findTestObject(""Object Repository/checkout/a_FINISH""))",Chrome 117.0.0.0,,,2023-09-17 19:59:34,2023-09-17 19:59:35,1.431s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/checkout/h2_THANK YOU FOR YOUR ORDER""))",Chrome 117.0.0.0,,,2023-09-17 19:59:35,2023-09-17 19:59:36,0.873s,PASSED
+closeBrowser(),Chrome 117.0.0.0,,,2023-09-17 19:59:36,2023-09-17 19:59:37,0.901s,PASSED
